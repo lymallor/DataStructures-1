@@ -10,7 +10,9 @@ class Node{
     public function getData(){
         return $this->data;
     }
-    
+    public function setData($d){
+        $this->data=$d;
+    }
          
 }
 
